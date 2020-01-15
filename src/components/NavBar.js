@@ -9,7 +9,7 @@ class NavBar extends React.Component{
                 <nav className="navbar navbar-light bg-light">
 
                     <Link to='/' className="navbar-brand">
-                        <img src={require('../me.jpg')} style={{width:"30px", height:"40px"}} class="d-inline-block align-top" alt="profile-pic"/>
+                        <img src={require('../me.jpg')} className="d-inline-block align-top navbar-image" alt="profile-pic"/>
                         Nick Boober
                     </Link>
 
