@@ -22,19 +22,19 @@ class NavBar extends React.Component{
                         <ul className="navbar-nav">
 
                             <li className="nav-item">
-                                <Link className="nav-link" to='#'>Home</Link>
+                                <Link className="nav-link" to='/'>Home</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link" to='#'>About Me</Link>
+                                <Link className="nav-link" to='/about'>About Me</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link" to='#'>My Projects</Link>
+                                <Link className="nav-link" to='/projects'>My Projects</Link>
                             </li>
 
                             <li className="nav-item">
-                                <Link className="nav-link" to='#'>Contact Me</Link>
+                                <Link className="nav-link" to='/contact'>Contact Me</Link>
                             </li>
 
                         </ul>

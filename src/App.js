@@ -4,6 +4,8 @@ import './App.css';
 import AboutMe from './components/AboutMe'
 import NavBar from './components/NavBar'
 import Projects from './components/Projects'
+import Home from './components/Home'
+import Contact from './components/Contact'
 
 class App extends React.Component{
   render(){
@@ -14,9 +16,25 @@ class App extends React.Component{
         
         <Switch>
 
-          <AboutMe/>
+          <Route exact path="/" render={()=>{
+            return <Home/>
+          }}/>
 
-          <Projects/>
+          <Route exact path="/about" render={()=>{
+            return <AboutMe/>
+          }}/>
+
+          <Route exact path="/projects" render={()=>{
+            
+            return <Projects/>
+
+          }}/>
+
+          <Route exact path="/contact" render={()=>{
+            
+            return <Contact/>
+
+          }}/>
 
         </Switch>
       </div>
