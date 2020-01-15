@@ -6,6 +6,7 @@ import NavBar from './components/NavBar'
 import Projects from './components/Projects'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import Error from './components/Error'
 
 class App extends React.Component{
   render(){
@@ -35,6 +36,8 @@ class App extends React.Component{
             return <Contact/>
 
           }}/>
+
+          <Error/>
 
         </Switch>
       </div>
