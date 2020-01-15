@@ -9,8 +9,8 @@ class NavBar extends React.Component{
                 <nav className="navbar navbar-light bg-light">
 
                     <Link to='/' className="navbar-brand">
-                        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""/>
-                        Bootstrap
+                        <img src={require('../me.jpg')} style={{width:"30px", height:"40px"}} class="d-inline-block align-top" alt="profile-pic"/>
+                        Nick Boober
                     </Link>
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">  
@@ -21,8 +21,8 @@ class NavBar extends React.Component{
                         
                         <ul className="navbar-nav">
 
-                            <li className="nav-item active">
-                                <Link className="nav-link" to='#'>Home <span class="sr-only">(current)</span></Link>
+                            <li className="nav-item">
+                                <Link className="nav-link" to='#'>Home</Link>
                             </li>
 
                             <li className="nav-item">
