@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Home from './components/Home'
 import Contact from './components/Contact'
 import Error from './components/Error'
+import Medium from './components/Medium'
 
 class App extends React.Component{
   render(){
@@ -28,6 +29,12 @@ class App extends React.Component{
           <Route exact path="/projects" render={()=>{
             
             return <Projects/>
+
+          }}/>
+      
+          <Route exact path="/medium" render={()=>{
+            
+            return <Medium/>
 
           }}/>
 
