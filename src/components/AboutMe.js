@@ -1,10 +1,88 @@
 import React from 'react';
+import Pdf from '../resume.pdf';
 
 class AboutMe extends React.Component{
     render(){
         return(
             <div>
-                About Me
+
+                <h2>
+                    Summary
+                </h2>
+                <div>
+                    Experienced with building asynchronous, single page applications using Ruby on Rails, React, Bootstrap, and PostgreSQL. Fast learner who possesses strong skills in group environments and working under pressure. Seeking opportunities to use and develop my skills on a business level.
+                </div>
+
+                <h2>
+                    My Skills
+                </h2>
+                
+                <div>
+                    <h4>
+                        Front-End
+                    </h4>
+                    <ul>
+                        <li>
+                            HTML5
+                        </li>
+                        <li>
+                            JavaScript
+                        </li>
+                        <li>
+                            React
+                        </li>
+                    </ul>
+
+                    <h4>
+                        Styling
+                    </h4>
+                    <ul>
+                        <li>
+                            CSS
+                        </li>
+                        <li>
+                            Bootstrap
+                        </li>
+                        <li>
+                            Semantic
+                        </li>
+                    </ul>
+
+                    <h4>
+                        Back-End
+                    </h4>
+                    <ul>
+                        <li>
+                            Ruby/ Ruby on Rails
+                        </li>
+                        <li>
+                            Java
+                        </li>
+                        <li>
+                            Spring Boot w/ Thymeleaf
+                        </li>
+                        <li>
+                            Spring Security
+                        </li>
+                    </ul>
+
+                    <h4>
+                        Databases
+                    </h4>
+                    <ul>
+                        <li>
+                            PostgreSQL
+                        </li>
+                        <li>
+                            SQLite
+                        </li>
+                        <li>
+                            MySQL
+                        </li>
+                    </ul>
+
+                </div>
+                <a href={Pdf} target=" _blank">Want to Look at my resume?</a>
             </div>
         )
     }
