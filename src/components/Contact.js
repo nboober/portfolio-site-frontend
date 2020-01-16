@@ -1,4 +1,5 @@
 import React from 'react';
+import Email from './Email'
 
 class Contact extends React.Component{
     render(){
@@ -12,6 +13,7 @@ class Contact extends React.Component{
                         <b>Email:</b> <span>nickboober92@gmail.com</span>
                     </div>
                 </div>
+                <Email/>
             </div>
         )
     }
