@@ -10,7 +10,7 @@ class AboutMe extends React.Component{
                     Summary
                 </h2>
                 <div>
-                    Experienced with building asynchronous, single page applications using Ruby on Rails, React, Bootstrap, and PostgreSQL. Fast learner who possesses strong skills in group environments and working under pressure. Seeking opportunities to use and develop my skills on a business level.
+                    I am a recent graduate of FlatIron School in Washington D.C. I am experienced with building asynchronous, single page applications using Ruby on Rails, React, Bootstrap, and PostgreSQL. I am a fast learner who possesses strong skills in group environments and working under pressure. I am currently seeking opportunities to use and develop my skills on a business level.
                 </div>
 
                 <h2>
