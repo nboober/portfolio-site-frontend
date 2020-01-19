@@ -1,4 +1,5 @@
 import React from 'react';
+import ProjectCards from './ProjectCards'
 
 class Projects extends React.Component{
     constructor(){
@@ -41,7 +42,39 @@ class Projects extends React.Component{
     render(){
         return(
             <div>
-                My Projects
+            <>
+                {this.state.reactProjects ? (
+                    <div className="project-container">
+                        <h2>React/ Ruby Projects</h2>
+                        <div >
+                            {this.state.reactProjects.map((project)=>{
+                                return <ProjectCards key={project.title} project={project}/>
+                            })}
+                        </div>
+
+                        <h2>Javascript/ Ruby Projects</h2>
+                        <div >
+                            {this.state.javascriptProjects.map((project)=>{
+                                return <ProjectCards key={project.title} project={project}/>
+                            })}
+                        </div>
+
+                        <h2>Ruby Projects</h2>
+                        <div >
+                            {this.state.rubyProjects.map((project)=>{
+                                return <ProjectCards key={project.title} project={project}/>
+                            })}
+                        </div>
+
+                        <h2>Java Projects</h2>
+                        <div >
+                            {this.state.javaProjects.map((project)=>{
+                                return <ProjectCards key={project.title} project={project}/>
+                            })}
+                        </div>
+                    </div>
+                ) : null}
+            </>
             </div>
         )
     }
