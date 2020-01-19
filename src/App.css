@@ -1,6 +1,16 @@
 .navbar-image{
     width:30px;
     height:40px;
+    margin-right: 10px;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 1px solid #000000;
+}
+
+.navBar-title{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 a:hover{
