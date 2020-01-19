@@ -41,40 +41,53 @@ class Projects extends React.Component{
 
     render(){
         return(
-            <div>
-            <>
+            <div className="project-container">
+
                 {this.state.reactProjects ? (
-                    <div className="project-container">
+                    <div>
                         <h2>React/ Ruby Projects</h2>
-                        <div >
-                            {this.state.reactProjects.map((project)=>{
-                                return <ProjectCards key={project.title} project={project}/>
-                            })}
+                        <div>
+                        {this.state.reactProjects.map((project)=>{
+                            return <ProjectCards key={project.title} project={project}/>
+                        })}
                         </div>
+                        
+                    </div>
+                ) : null}
 
+                {this.state.javascriptProjects ? (
+                    <div>
                         <h2>Javascript/ Ruby Projects</h2>
-                        <div >
-                            {this.state.javascriptProjects.map((project)=>{
-                                return <ProjectCards key={project.title} project={project}/>
-                            })}
+                        <div>
+                        {this.state.javascriptProjects.map((project)=>{
+                            return <ProjectCards key={project.title} project={project}/>
+                        })}
                         </div>
+                    </div>
+                ) : null}
 
+                {this.state.rubyProjects ? (
+                    <div>
                         <h2>Ruby Projects</h2>
-                        <div >
-                            {this.state.rubyProjects.map((project)=>{
-                                return <ProjectCards key={project.title} project={project}/>
-                            })}
+                        <div>
+                        {this.state.rubyProjects.map((project)=>{
+                            return <ProjectCards key={project.title} project={project}/>
+                        })}
                         </div>
+                    </div>
+                ) : null}
 
+                {this.state.javaProjects ? (
+                    <div>
                         <h2>Java Projects</h2>
-                        <div >
+                        <div>
                             {this.state.javaProjects.map((project)=>{
                                 return <ProjectCards key={project.title} project={project}/>
                             })}
                         </div>
                     </div>
                 ) : null}
-            </>
+
             </div>
         )
     }
