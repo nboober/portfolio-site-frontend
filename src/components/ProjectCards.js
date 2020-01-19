@@ -13,14 +13,17 @@ class ProjectCards extends React.Component{
 
     render(){
         return(
-            <div className="project-cards-container" onClick={this.alert}>
-                <a href={this.props.project.deploy} target="_blank" rel="noopener noreferrer" className="card bg-dark text-white" >
+            <div className="project-cards-container" >
+                <a href={this.props.project.deploy ? this.props.project.deploy : this.props.project.youtube} target="_blank" rel="noopener noreferrer" className="card bg-dark text-white" onClick={this.alert}>
                     <img className="card-img project-card-image" src={this.props.project.image} alt="project icon"/>
-                    <div className="" >
+                    <div>
                     <h5 className="card-title card-text">{this.props.project.title}</h5>
                     <p className="card-text card-text">{this.props.project.description}</p>
                     </div>
                 </a>
+                    <a href={this.props.project.github} target="_blank">
+                        <img style={{width: "50px"}} src="https://res.cloudinary.com/dmfaehjot/image/upload/v1579459808/personal-portfolio/Font_Awesome_5_brands_github_nvfces.svg" alt="github icon"/>
+                    </a>
             </div>
         )
     }
