@@ -1,4 +1,5 @@
 import React from 'react'
+import Swal from 'sweetalert2'
 
 class Email extends React.Component{
     constructor(props) {
@@ -25,6 +26,7 @@ class Email extends React.Component{
         const templateId = 'basic';
     
         this.sendFeedback(templateId, {message: this.state.feedback, name: this.state.name, email: this.state.email})
+
       }
     
       sendFeedback = (templateId, variables) => {
@@ -32,10 +34,20 @@ class Email extends React.Component{
           'gmail', templateId,
           variables
           ).then(res => {
-            console.log('Email successfully sent!')
+            // console.log('Email successfully sent!')
+            Swal.fire({
+              title: 'Email Successfully Sent',
+              icon: 'success'
+            })
           })
           // Handle errors here however you like, or use a React error boundary
-          .catch(err => console.error('Email Error:', err))
+          .catch(err => {
+            Swal.fire({
+              title: 'Email Failed to Send',
+              icon: 'error'
+            })
+            console.error('Email Error:', err)
+          })
       }
     
       render() {
