@@ -28,6 +28,10 @@ body{
     padding:0; 
 }
 
+.icon-size{
+    width: 40px;
+}
+
 .invert-color:hover{
     -webkit-filter: invert(1);
     filter: invert(1);
@@ -41,7 +45,7 @@ body{
 }
 
 .center {
-    width: 100%;
+    width: 80%;
     margin: 0;
     position: absolute;
     top: 50%;

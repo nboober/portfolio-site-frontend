@@ -82,6 +82,19 @@ class AboutMe extends React.Component{
                         </ul>
     
                     </div>
+
+                    <a href="https://medium.com/@skinsfannick" className="invert-color">
+                        <img className="icon-size" src="https://res.cloudinary.com/dmfaehjot/image/upload/v1579545929/personal-portfolio/monogram-mask_v0i7mv.svg" alt="medium icon"/>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/nick-boober-96289a18a/" className="invert-color">
+                        <img className="icon-size" src="https://res.cloudinary.com/dmfaehjot/image/upload/v1579545890/personal-portfolio/linkedin-300x300_sn1mq8.png" alt="linkedin icon"/>
+                    </a>
+
+                    <a href="https://github.com/nboober?tab=repositories" className="invert-color">
+                        <img className="icon-size" src="https://res.cloudinary.com/dmfaehjot/image/upload/v1579459808/personal-portfolio/Font_Awesome_5_brands_github_nvfces.svg" alt="github icon"/>
+                    </a>
+                    <br/>
                     <a href={Pdf} target=" _blank" className="btn btn-outline-danger">Want to Look at my resume?</a>
     
                 </div>

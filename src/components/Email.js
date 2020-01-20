@@ -54,7 +54,8 @@ class Email extends React.Component{
         return (
           <form className="test-mailing" onSubmit={this.handleSubmit}>
 
-            <h5>You can also send me an email directly from here</h5>
+            <br/>
+            <h6>You can also send me an email directly from here</h6>
 
             <div>
                 <label htmlFor="name">Name</label>
