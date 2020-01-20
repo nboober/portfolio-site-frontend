@@ -6,7 +6,7 @@ class NavBar extends React.Component{
         return(
             <div>
                 {/* Image and text */}
-                <nav className="navbar navbar-light bg-light">
+                <nav className="navbar navbar-dark bg-dark">
 
                     <Link to='/' className="navbar-brand navBar-title">
                         <img src={require('../me.jpg')} className="d-inline-block align-top navbar-image" alt="profile-pic"/>
