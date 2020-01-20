@@ -17,18 +17,18 @@ class Medium extends React.Component{
 
     render(){
         return (
-            <>
+            <div className="medium-container">
                 {this.state.medium ? (
                     <div>
                         <h2>{this.state.medium.feed.description}</h2>
-                        <div className="medium-container">
+                        <div>
                             {this.state.medium.items.map((post)=>{
                                 return <MediumCards key={post.title} post={post}/>
                             })}
                         </div>
                     </div>
                 ) : null}
-            </>
+            </div>
         )
     }
 }
