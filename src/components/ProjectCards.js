@@ -21,7 +21,7 @@ class ProjectCards extends React.Component{
                     <p className="card-text card-text">{this.props.project.description}</p>
                     </div>
                 </a>
-                    <a href={this.props.project.github} target="_blank">
+                    <a href={this.props.project.github} target="_blank" rel="noopener noreferrer">
                         <img style={{width: "50px"}} src="https://res.cloudinary.com/dmfaehjot/image/upload/v1579459808/personal-portfolio/Font_Awesome_5_brands_github_nvfces.svg" alt="github icon"/>
                     </a>
             </div>
