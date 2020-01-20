@@ -80,7 +80,7 @@ class Email extends React.Component{
               />
             </div>
 
-            <input type="submit" value="Submit" className="btn btn--submit" />
+            <input type="submit" value="Submit" className="btn btn-outline-light" />
           </form>
         )
       }

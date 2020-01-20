@@ -28,14 +28,20 @@ body{
     padding:0; 
 }
 
+.invert-color:hover{
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
 .center-container{
     text-align: center;
-    height: 800px;
+    height: 850px;
     position: relative;
     /* border: 3px solid green; */
 }
 
 .center {
+    width: 100%;
     margin: 0;
     position: absolute;
     top: 50%;

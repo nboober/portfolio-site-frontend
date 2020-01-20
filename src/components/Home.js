@@ -6,13 +6,13 @@ class Home extends React.Component{
         return(
             <div className="center-container">
                 <div className="center">
-                    <h2>
+                    <h1>
                         Hello! My name is Nick Boober
-                    </h2>
+                    </h1>
 
-                    <h3>
+                    <h2>
                         I am a Full Stack Web Developer.
-                    </h3>
+                    </h2>
                     <Link to="/about" className="btn btn-outline-primary">See my Profile</Link>
                     <Link to="/contact" className="btn btn-outline-success">Contact Me</Link>
                 </div>
