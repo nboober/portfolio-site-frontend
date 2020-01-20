@@ -11,7 +11,7 @@ class Home extends React.Component{
                     </h1>
 
                     <h2>
-                        I am a Full Stack Web Developer.
+                        I am a Full Stack Developer
                     </h2>
                     <Link to="/about" className="btn btn-outline-primary">See my Profile</Link>
                     <Link to="/contact" className="btn btn-outline-success">Contact Me</Link>
