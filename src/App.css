@@ -58,6 +58,19 @@ a:hover{
     text-decoration: none;
 }
 
+.about-me-summary{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-me-skills{
+    /* border: 1px solid black; */
+    width: 35%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 10px;
+}
+
 .medium-container{
     background: rgb(2,0,36);
     background: linear-gradient(157deg, rgba(2,0,36,1) 36%, rgba(121,75,9,1) 79%, rgba(0,212,255,1) 100%);
