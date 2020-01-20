@@ -77,7 +77,7 @@ class Email extends React.Component{
                 onChange={this.messageChange}
                 placeholder="Put your message here"
                 required
-                style={{width: '50%', height: '150px'}}
+                className="email-text-area"
               />
             </div>
 

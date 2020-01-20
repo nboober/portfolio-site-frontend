@@ -7,12 +7,12 @@ class Contact extends React.Component{
             <div className="center-container">
                 <div className="center">
                     <div>
-                        <div>
+                        <h3>
                             <b>Phone:</b> <span>240-477-2103</span>
-                        </div>
-                        <div>
+                        </h3>
+                        <h3>
                             <b>Email:</b> <span>nickboober92@gmail.com</span>
-                        </div>
+                        </h3>
                     </div>
                     <Email/>
                 </div>
