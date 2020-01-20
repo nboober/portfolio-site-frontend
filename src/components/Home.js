@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 class Home extends React.Component{
     render(){
         return(
-            <div className="home-container">
+            <div className="center-container">
                 <div className="center">
                     <h2>
                         Hello! My name is Nick Boober
