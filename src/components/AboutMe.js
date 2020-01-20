@@ -21,9 +21,9 @@ class AboutMe extends React.Component{
                     
                     <div>
                         <div className="about-me-skills">
-                            <h4>
+                            <h3>
                                 Front-End
-                            </h4>
+                            </h3>
                             <ul className="remove-bullet">
                                 <li>
                                     HTML5
@@ -38,9 +38,9 @@ class AboutMe extends React.Component{
                         </div>
     
                         <div className="about-me-skills">
-                            <h4>
+                            <h3>
                                 Styling
-                            </h4>
+                            </h3>
                             <ul className="remove-bullet">
                                 <li>
                                     CSS
@@ -55,9 +55,9 @@ class AboutMe extends React.Component{
                         </div>
                         
                         <div className="about-me-skills">
-                            <h4>
+                            <h3>
                                 Back-End
-                            </h4>
+                            </h3>
                             <ul className="remove-bullet">
                                 <li>
                                     Ruby/ Ruby on Rails
@@ -75,9 +75,9 @@ class AboutMe extends React.Component{
                         </div>
 
                         <div className="about-me-skills">
-                            <h4>
+                            <h3>
                                 Databases
-                            </h4>
+                            </h3>
                             <ul className="remove-bullet">
                                 <li>
                                     PostgreSQL
