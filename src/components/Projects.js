@@ -13,7 +13,7 @@ class Projects extends React.Component{
     }
 
     componentDidMount = () => {
-        fetch('http://localhost:3000/projects')
+        fetch('https://nickboober-backend.herokuapp.com/projects')
         .then(response => response.json())
         .then(projects => {
             projects.map((project)=>{
