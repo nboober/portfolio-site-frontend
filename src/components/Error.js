@@ -24,6 +24,9 @@ class Error extends React.Component{
                     <p>the page you are looking for is not avaible!</p>
                     
                     <Link to="/" class="link_404">Go to Home</Link>
+                    <p>Author
+                    Naved khan
+                    June 18, 2018</p>
                     </div>
                         </div>
                         </div>
