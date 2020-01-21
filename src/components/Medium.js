@@ -10,7 +10,7 @@ class Medium extends React.Component{
     }
 
     componentDidMount = () =>{
-        fetch('http://localhost:3000/mediumposts')
+        fetch('https://nickboober-backend.herokuapp.com/mediumposts')
         .then(response => response.json())
         .then(mediumItems => this.setState({medium: mediumItems}))
     }
