@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCards from './ProjectCards'
+import Loading from './Loading'
 
 class Projects extends React.Component{
     constructor(){
@@ -43,9 +44,9 @@ class Projects extends React.Component{
         return(
             <div className="project-container">
 
-                {this.state.reactProjects ? (
+                <h2>React/ Ruby Projects</h2>
+                {this.state.reactProjects.length > 0 ? (
                     <div>
-                        <h2>React/ Ruby Projects</h2>
                         <div>
                         {this.state.reactProjects.map((project)=>{
                             return <ProjectCards key={project.title} project={project}/>
@@ -53,40 +54,40 @@ class Projects extends React.Component{
                         </div>
                         
                     </div>
-                ) : null}
+                ) : <Loading/>}
 
-                {this.state.javascriptProjects ? (
+                <h2>Javascript/ Ruby Projects</h2>
+                {this.state.javascriptProjects.length > 0 ? (
                     <div>
-                        <h2>Javascript/ Ruby Projects</h2>
                         <div>
                         {this.state.javascriptProjects.map((project)=>{
                             return <ProjectCards key={project.title} project={project}/>
                         })}
                         </div>
                     </div>
-                ) : null}
+                ) : <Loading/>}
 
-                {this.state.rubyProjects ? (
+                <h2>Ruby Projects</h2>
+                {this.state.rubyProjects.length > 0 ? (
                     <div>
-                        <h2>Ruby Projects</h2>
                         <div>
                         {this.state.rubyProjects.map((project)=>{
                             return <ProjectCards key={project.title} project={project}/>
                         })}
                         </div>
                     </div>
-                ) : null}
+                ) : <Loading/>}
 
-                {this.state.javaProjects ? (
+                <h2>Java Projects</h2>
+                {this.state.javaProjects.length > 0 ? (
                     <div>
-                        <h2>Java Projects</h2>
                         <div>
                             {this.state.javaProjects.map((project)=>{
                                 return <ProjectCards key={project.title} project={project}/>
                             })}
                         </div>
                     </div>
-                ) : null}
+                ) : <Loading/>}
 
             </div>
         )

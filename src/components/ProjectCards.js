@@ -1,6 +1,5 @@
 import React from 'react'
 import Swal from 'sweetalert2'
-import Loading from './Loading'
 
 class ProjectCards extends React.Component{
 
@@ -29,7 +28,7 @@ class ProjectCards extends React.Component{
                         </a>
                     </>
                     ) : (
-                    <Loading/>
+                    null
                 )}
             </div>
         )
