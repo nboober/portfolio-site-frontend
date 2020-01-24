@@ -1,5 +1,6 @@
 import React from 'react'
 import MediumCards from './MediumCards'
+import Loading from './Loading'
 
 class Medium extends React.Component{
     constructor(){
@@ -27,7 +28,7 @@ class Medium extends React.Component{
                             })}
                         </div>
                     </div>
-                ) : null}
+                ) : <Loading/>}
             </div>
         )
     }
