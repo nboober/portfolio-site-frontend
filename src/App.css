@@ -134,11 +134,21 @@ a:hover{
     On hover animations for cards
 ===================================*/
 
-.hidden-text{
+.project-cards-container .hidden-text{
     display: none;
     font-size: 48px;
     position: absolute;
-    top: 20%;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.medium-cards-container .hidden-text{
+    display: none;
+    font-size: 48px;
+    position: absolute;
+    top: 30%;
     left: 0;
     right: 0;
     bottom: 0;
