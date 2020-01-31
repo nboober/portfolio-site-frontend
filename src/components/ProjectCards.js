@@ -19,6 +19,7 @@ class ProjectCards extends React.Component{
                         <a href={this.props.project.deploy === "N/A" ? this.props.project.youtube : this.props.project.deploy } target="_blank" rel="noopener noreferrer" className="card bg-dark text-white" onClick={this.alert}>
                             <img className="card-img project-card-image" src={this.props.project.image} alt="project icon"/>
                             <div>
+                            <h4 className="hidden-text">Demo</h4>
                             <h5 className="card-title card-text">{this.props.project.title}</h5>
                             <p className="card-text card-text">{this.props.project.description}</p>
                             </div>

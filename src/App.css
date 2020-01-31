@@ -130,6 +130,35 @@ a:hover{
     overflow-Y: scroll;
 }
 
+/*=================================
+    On hover animations for cards
+===================================*/
+
+.hidden-text{
+    display: none;
+    font-size: 48px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h4{
+    height: 50px;
+    width: 100%;
+}
+
+.card:hover img{
+    opacity: .4;
+    transition: opacity .5s;
+}
+
+.card:hover h4{
+    display: block;
+    transition: display .5s;
+}
+
 /*======================
     404 page
 =======================*/
